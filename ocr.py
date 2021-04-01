@@ -7,13 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/17OoNvGdHxfiq9tLnyDfZ0PbKwZSJ0dWe
 """
 
-!sudo apt install tesseract-ocr
-!pip install pytesseract --quiet
-
-!pip install streamlit --quiet
-!pip install pyngrok==4.1.1 --quiet
-from pyngrok import ngrok
-
 # %%writefile app.py
 import streamlit as st
 import pytesseract 
