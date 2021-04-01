@@ -1,2 +1,1 @@
-  
-web: sh setup.sh && streamlit run ocr.py
+  web: sh setup.sh && streamlit run ocr.py
